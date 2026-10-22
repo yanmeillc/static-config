@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "issued_at": "2026-10-22T13:09:16Z",
+  "key_id": "ed25519-2026q4",
+  "payload": {
+    "entries": [
+      {
+        "id": "cf",
+        "domain": "api.yanmeiai.com",
+        "port": 443,
+        "role": "cf",
+        "region": "global",
+        "weight": 50
+      },
+      {
+        "id": "gw-1",
+        "domain": "pangolin3.new.tg",
+        "port": 23847,
+        "role": "gateway",
+        "region": "us-west",
+        "weight": 50
+      },
+      {
+        "id": "gw-2",
+        "domain": "pangolin2.new.tg",
+        "port": 31429,
+        "role": "gateway",
+        "region": "us-west",
+        "weight": 50
+      }
+    ],
+    "mirror_urls": [
+      "https://raw.githubusercontent.com/yanmeillc/static-config/main/endpoints.v1.json",
+      "https://static-config.pages.dev/endpoints.v1.json"
+    ],
+    "emergency_nodes_hint": [
+      "builtin"
+    ]
+  },
+  "sig": "vg20TCSYZVI+1FxzUnl9mZYkhMTcXcYeznBmu8pwkSXx3xm9kZDuh2EVId1Izf1JSIH8aeQvZsfut+jLyxlBDQ=="
+}
