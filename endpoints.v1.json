@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "issued_at": "2026-10-22T13:09:16Z",
+  "version": 2,
+  "issued_at": "2026-10-22T23:18:11Z",
   "key_id": "ed25519-2026q4",
   "payload": {
     "entries": [
@@ -30,6 +30,7 @@
       }
     ],
     "mirror_urls": [
+      "https://gitlab.com/yanmei.llc/static-config/-/raw/main/endpoints.v1.json",
       "https://raw.githubusercontent.com/yanmeillc/static-config/main/endpoints.v1.json",
       "https://static-config.pages.dev/endpoints.v1.json"
     ],
@@ -37,5 +38,5 @@
       "builtin"
     ]
   },
-  "sig": "vg20TCSYZVI+1FxzUnl9mZYkhMTcXcYeznBmu8pwkSXx3xm9kZDuh2EVId1Izf1JSIH8aeQvZsfut+jLyxlBDQ=="
+  "sig": "CwEs4AmtyFbqN0nfyRXsJEtQdmJaMG0cpcP1EKnkgIIJf/S7yxvPb12jB5l42RJ1cl9YhWUCJoCCYOYLLLBfCg=="
 }
