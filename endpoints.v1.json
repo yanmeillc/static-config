@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "issued_at": "2026-10-28T09:59:02Z",
+  "version": 4,
+  "issued_at": "2026-10-28T10:38:33Z",
   "key_id": "ed25519-2026q4",
   "payload": {
     "entries": [
@@ -13,11 +13,27 @@
         "weight": 50
       },
       {
+        "id": "gw-1",
+        "domain": "pangolin3.new.tg",
+        "port": 23847,
+        "role": "gateway",
+        "region": "ap-northeast",
+        "weight": 50
+      },
+      {
         "id": "gw-2",
         "domain": "pangolin2.new.tg",
         "port": 31429,
         "role": "gateway",
         "region": "us-west",
+        "weight": 50
+      },
+      {
+        "id": "gw-3",
+        "domain": "pangolin1.new.tg",
+        "port": 20161,
+        "role": "gateway",
+        "region": "ap-south",
         "weight": 50
       }
     ],
@@ -30,5 +46,5 @@
       "builtin"
     ]
   },
-  "sig": "5B7krWAAh2Y5pyq/hEQ0YxQYNHbzJ4PIFNMoCwScvXfXkzBEXvy5T06LFRvJ9D4Omlu9LWOzBcsn0Xv/g4mSBw=="
+  "sig": "nScThyWSFgyP8Fr0K0wYZp0I8KeADxej2scAHeSTHTpPKArVvW5y5iZcRHV5CXFhGWtfux+iluhs+wb8N6zkAA=="
 }
