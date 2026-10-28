@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "issued_at": "2026-10-22T23:18:11Z",
+  "version": 3,
+  "issued_at": "2026-10-28T09:59:02Z",
   "key_id": "ed25519-2026q4",
   "payload": {
     "entries": [
@@ -10,14 +10,6 @@
         "port": 443,
         "role": "cf",
         "region": "global",
-        "weight": 50
-      },
-      {
-        "id": "gw-1",
-        "domain": "pangolin3.new.tg",
-        "port": 23847,
-        "role": "gateway",
-        "region": "us-west",
         "weight": 50
       },
       {
@@ -38,5 +30,5 @@
       "builtin"
     ]
   },
-  "sig": "CwEs4AmtyFbqN0nfyRXsJEtQdmJaMG0cpcP1EKnkgIIJf/S7yxvPb12jB5l42RJ1cl9YhWUCJoCCYOYLLLBfCg=="
+  "sig": "5B7krWAAh2Y5pyq/hEQ0YxQYNHbzJ4PIFNMoCwScvXfXkzBEXvy5T06LFRvJ9D4Omlu9LWOzBcsn0Xv/g4mSBw=="
 }
